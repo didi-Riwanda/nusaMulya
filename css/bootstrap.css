@@ -813,6 +813,12 @@ pre code {
   max-width: 100%;
 }
 
+.col-12 .card-product h5,
+.col-12 .card-product p {
+  font-size: 15px !important;
+  margin-top: 0 !important;
+}
+
 .order-first {
   -ms-flex-order: -1;
   order: -1;
@@ -1406,6 +1412,16 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .col-lg-6 .business-info,
+  .col-lg-6 .executive-info {
+    width: 200px !important;
+  }
+
+  .col-lg-6 .business-info h6,
+  .col-lg-6 .executive-info h6 {
+    font-size: 20px !important;
   }
 
   .col-lg-7 {
